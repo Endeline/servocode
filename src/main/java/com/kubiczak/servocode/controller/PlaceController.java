@@ -11,6 +11,11 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.PostConstruct;
 import java.util.Collection;
 
+/**
+ * This class hold all http request for place.
+ * @author Henryk Kubiczak.
+ * @version 1.0
+ */
 @Controller
 @RequestMapping("/api/place/")
 public class PlaceController {
@@ -41,6 +46,10 @@ public class PlaceController {
         service.save(entity3);
     }
 
+    /**
+     * Function hold http request for get all existing entities.
+     * @return ResponseEntity with collection of PlaceEntity.
+     */
     @GetMapping
     public ResponseEntity getAll(){
         return new ResponseEntity<>(
@@ -49,6 +58,11 @@ public class PlaceController {
         );
     }
 
+    /**
+     * Function hold post http request for save new place entity.
+     * @param entity {@link PlaceEntity}.
+     * @return ResponseEntity with saved place entity.
+     */
     @PostMapping
     public ResponseEntity save(@RequestBody PlaceEntity entity){
         return new ResponseEntity<>(
@@ -57,6 +71,11 @@ public class PlaceController {
         );
     }
 
+    /**
+     * Function for hold post http request with collection of place entities.
+     * @param entities {@link Collection} with {@link PlaceEntity}.
+     * @return ResponseEntity with all added entities.
+     */
     @PostMapping("places")
     public ResponseEntity saveAll(@RequestBody Collection<PlaceEntity> entities){
         return new ResponseEntity<>(
@@ -65,6 +84,11 @@ public class PlaceController {
         );
     }
 
+    /**
+     * Hold post http request for search closer place.
+     * @param entity {@link PlaceEntity}.
+     * @return ResponseEntity with closer place.
+     */
     @PostMapping("find")
     public ResponseEntity getCloserPoint(@RequestBody PlaceEntity entity){
         return new ResponseEntity<>(
@@ -73,6 +97,12 @@ public class PlaceController {
         );
     }
 
+    /**
+     * Function hold http GET request with latitude and longitude as params, for search closet point.
+     * @param latitude double
+     * @param longitude double
+     * @return ResponseEntity with closer point.
+     */
     @GetMapping("find")
     public ResponseEntity getCloserPoint(@RequestParam double latitude, @RequestParam double longitude) {
         return new ResponseEntity<>(
