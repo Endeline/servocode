@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db8606a3-27e7-4fc2-b9e2-3ef4f24904e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/controller/PlaceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/controller/PlaceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/model/PlaceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/model/PlaceEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/repository/PlaceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/repository/PlaceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/service/PlaceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/service/PlaceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/service/PlaceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/service/PlaceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kubiczak/servocode/ServocodeApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,74 +14,94 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/controller/PlaceController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="110" column="10" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/model/PlaceEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/repository/PlaceRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/service/PlaceService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/service/PlaceServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="88" column="38" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#625#626#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#997#998#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.41731772">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/controller/PlaceController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-158">
+                  <caret line="78" column="15" lean-forward="true" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/model/PlaceEntity.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="169">
+                  <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/repository/PlaceRepository.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/service/PlaceService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="645">
+                  <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/service/PlaceServiceImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1244">
+                  <caret line="88" column="38" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#517#518#0" expanded="true" />
+                    <element signature="e#560#561#0" expanded="true" />
+                    <element signature="e#625#626#0" expanded="true" />
+                    <element signature="e#671#672#0" expanded="true" />
+                    <element signature="e#997#998#0" expanded="true" />
+                    <element signature="e#1046#1047#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/kubiczak/servocode/controller/PlaceControllerServiceTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="142">
+                  <caret line="44" column="56" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -111,11 +129,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kubiczakk/servocode/model/PlaceEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kubiczakk/servocode/controller/PlaceController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/model/PlaceEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/repository/PlaceRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/service/PlaceService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/controller/PlaceController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/service/PlaceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/model/PlaceEntity.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kubiczak/servocode/controller/PlaceControllerServiceTest.java" />
       </list>
     </option>
   </component>
@@ -126,9 +145,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2362" />
-    <option name="y" value="158" />
-    <option name="width" value="1461" />
+    <option name="x" value="2170" />
+    <option name="y" value="141" />
+    <option name="width" value="1582" />
     <option name="height" value="825" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -208,6 +227,36 @@
               <item name="servocode" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="servocode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servocode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="servocode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servocode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="servocode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servocode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servocode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="servocode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servocode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servocode" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -215,7 +264,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556615496525" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556621716519" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -234,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ServocodeApplication (1)">
+  <component name="RunManager" selected="JUnit.PlaceControllerServiceTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -255,22 +304,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServocodeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kubiczakk.servocode.ServocodeApplication" />
-      <module name="servocode" />
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kubiczakk.servocode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="PlaceControllerServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servocode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kubiczak.servocode.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kubiczak.servocode.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.kubiczak.servocode.controller.PlaceControllerServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaceControllerServiceTest.givenCloserPointWhenGetCloserPointByEntityReturnCloserEntity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servocode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kubiczak.servocode.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kubiczak.servocode.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.kubiczak.servocode.controller.PlaceControllerServiceTest" />
+      <option name="METHOD_NAME" value="givenCloserPointWhenGetCloserPointByEntityReturnCloserEntity" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaceControllerServiceTest.givenCloserPointWhenGetCloserPointByLatLngReturnCloserPoint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servocode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kubiczak.servocode.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kubiczak.servocode.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.kubiczak.servocode.controller.PlaceControllerServiceTest" />
+      <option name="METHOD_NAME" value="givenCloserPointWhenGetCloserPointByLatLngReturnCloserPoint" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaceControllerServiceTest.givenSavedEntityWhenSaveThenReturnSavedEntity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servocode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kubiczak.servocode.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kubiczak.servocode.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.kubiczak.servocode.controller.PlaceControllerServiceTest" />
+      <option name="METHOD_NAME" value="givenSavedEntityWhenSaveThenReturnSavedEntity" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -293,8 +395,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlaceControllerServiceTest" />
+        <item itemvalue="JUnit.PlaceControllerServiceTest.givenCloserPointWhenGetCloserPointByLatLngReturnCloserPoint" />
+        <item itemvalue="JUnit.PlaceControllerServiceTest.givenCloserPointWhenGetCloserPointByEntityReturnCloserEntity" />
+        <item itemvalue="JUnit.PlaceControllerServiceTest.givenSavedEntityWhenSaveThenReturnSavedEntity" />
         <item itemvalue="Application.ServocodeApplication (1)" />
-        <item itemvalue="Application.ServocodeApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -311,11 +416,43 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="PlaceControllerServiceTest_givenCollectionWhenGetAllWillReturnCollectionWithEntity - 2019.04.30 at 11h 35m 07s.xml">
+      <configuration name="PlaceControllerServiceTest.givenCollectionWhenGetAllWillReturnCollectionWithEntity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaceControllerServiceTest_givenSavedEntityWhenSaveThenReturnSavedEntity - 2019.04.30 at 11h 39m 09s.xml">
+      <configuration name="PlaceControllerServiceTest.givenSavedEntityWhenSaveThenReturnSavedEntity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaceControllerServiceTest_givenCollectionEntityWhenSaveAllThenReturnSavedEntities - 2019.04.30 at 11h 43m 39s.xml">
+      <configuration name="PlaceControllerServiceTest.givenCollectionEntityWhenSaveAllThenReturnSavedEntities" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaceControllerServiceTest_givenSavedEntityWhenSaveThenReturnSavedEntity - 2019.04.30 at 11h 58m 41s.xml">
+      <configuration name="PlaceControllerServiceTest.givenSavedEntityWhenSaveThenReturnSavedEntity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaceControllerServiceTest_givenCloserPointWhenGetCloserPointByEntityReturnCloserEntity - 2019.04.30 at 12h 44m 51s.xml">
+      <configuration name="PlaceControllerServiceTest.givenCloserPointWhenGetCloserPointByEntityReturnCloserEntity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaceControllerServiceTest_givenCloserPointWhenGetCloserPointByEntityReturnCloserEntity - 2019.04.30 at 12h 45m 22s.xml">
+      <configuration name="PlaceControllerServiceTest.givenCloserPointWhenGetCloserPointByEntityReturnCloserEntity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaceControllerServiceTest_givenCloserPointWhenGetCloserPointByLatLngReturnCloserPoint - 2019.04.30 at 12h 49m 19s.xml">
+      <configuration name="PlaceControllerServiceTest.givenCloserPointWhenGetCloserPointByLatLngReturnCloserPoint" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaceControllerServiceTest_givenCloserPointWhenGetCloserPointByLatLngReturnCloserPoint - 2019.04.30 at 12h 50m 04s.xml">
+      <configuration name="PlaceControllerServiceTest.givenCloserPointWhenGetCloserPointByLatLngReturnCloserPoint" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaceControllerServiceTest_givenCloserPointWhenGetCloserPointByLatLngReturnCloserPoint - 2019.04.30 at 12h 50m 32s.xml">
+      <configuration name="PlaceControllerServiceTest.givenCloserPointWhenGetCloserPointByLatLngReturnCloserPoint" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaceControllerServiceTest_givenCloserPointWhenGetCloserPointByLatLngReturnCloserPoint - 2019.04.30 at 12h 51m 04s.xml">
+      <configuration name="PlaceControllerServiceTest.givenCloserPointWhenGetCloserPointByLatLngReturnCloserPoint" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="2362" y="158" width="1461" height="825" extended-state="0" />
+    <frame x="2170" y="141" width="1582" height="825" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34134275" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.34114584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -324,12 +461,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.29036143" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30028737" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24856322" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.04310345" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.36063218" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -380,10 +517,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/model/PlaceEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/service/PlaceService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="645">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -400,29 +537,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/service/PlaceService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kubiczak/servocode/ServocodeApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/controller/PlaceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="110" column="10" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/service/PlaceServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
+        <state relative-caret-position="1244">
           <caret line="88" column="38" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -432,6 +556,47 @@
             <element signature="e#671#672#0" expanded="true" />
             <element signature="e#997#998#0" expanded="true" />
             <element signature="e#1046#1047#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/model/PlaceEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/CoreMatchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="147" column="33" selection-start-line="147" selection-start-column="33" selection-end-line="147" selection-end-column="33" />
+          <folding>
+            <element signature="e#5355#5356#0" expanded="true" />
+            <element signature="e#5400#5401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kubiczak/servocode/controller/PlaceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-158">
+          <caret line="78" column="15" lean-forward="true" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kubiczak/servocode/controller/PlaceControllerServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="44" column="56" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
