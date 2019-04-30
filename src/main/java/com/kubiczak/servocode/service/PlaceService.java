@@ -1,6 +1,6 @@
-package com.kubiczakk.servocode.service;
+package com.kubiczak.servocode.service;
 
-import com.kubiczakk.servocode.model.PlaceEntity;
+import com.kubiczak.servocode.model.PlaceEntity;
 
 import java.util.Collection;
 

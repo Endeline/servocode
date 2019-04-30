@@ -1,4 +1,4 @@
-package com.kubiczakk.servocode;
+package com.kubiczak.servocode;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

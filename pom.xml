@@ -8,7 +8,7 @@
 		<version>2.1.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.kubiczakk</groupId>
+	<groupId>com.kubiczak</groupId>
 	<artifactId>servocode</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>servocode</name>

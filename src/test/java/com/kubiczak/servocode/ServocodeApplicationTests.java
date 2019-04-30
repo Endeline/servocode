@@ -1,4 +1,4 @@
-package com.kubiczakk.servocode;
+package com.kubiczak.servocode;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.kubiczakk.servocode.model;
+package com.kubiczak.servocode.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

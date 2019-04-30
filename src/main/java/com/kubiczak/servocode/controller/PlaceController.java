@@ -1,7 +1,7 @@
-package com.kubiczakk.servocode.controller;
+package com.kubiczak.servocode.controller;
 
-import com.kubiczakk.servocode.model.PlaceEntity;
-import com.kubiczakk.servocode.service.PlaceService;
+import com.kubiczak.servocode.model.PlaceEntity;
+import com.kubiczak.servocode.service.PlaceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

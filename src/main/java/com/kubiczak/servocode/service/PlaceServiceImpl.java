@@ -1,7 +1,7 @@
-package com.kubiczakk.servocode.service;
+package com.kubiczak.servocode.service;
 
-import com.kubiczakk.servocode.model.PlaceEntity;
-import com.kubiczakk.servocode.repository.PlaceRepository;
+import com.kubiczak.servocode.model.PlaceEntity;
+import com.kubiczak.servocode.repository.PlaceRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
