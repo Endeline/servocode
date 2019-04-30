@@ -1,12 +1,14 @@
 package com.kubiczakk.servocode.model;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
 @Table(name = "place")
 @Entity
 @Data
+@NoArgsConstructor
 public class PlaceEntity {
 
     @Id
@@ -21,4 +23,9 @@ public class PlaceEntity {
 
     @Column(name = "longitude", nullable = false)
     private double longitude;
+
+    public PlaceEntity(double latitude, double longitude) {
+        this.latitude = latitude;
+        this.longitude = longitude;
+    }
 }

@@ -2,7 +2,6 @@ package com.kubiczakk.servocode.service;
 
 import com.kubiczakk.servocode.model.PlaceEntity;
 import com.kubiczakk.servocode.repository.PlaceRepository;
-import com.kubiczakk.servocode.restModel.PlacesPojo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,8 +25,8 @@ public class PlaceServiceImpl implements PlaceService {
     }
 
     @Override
-    public Collection<PlaceEntity> save(PlacesPojo entities) {
-        return entities.getEntities()
+    public Collection<PlaceEntity> save(Collection<PlaceEntity> entities) {
+        return entities
                 .stream()
                 .peek(entity -> repository.save(entity))
                 .collect(Collectors.toList());
@@ -35,10 +34,19 @@ public class PlaceServiceImpl implements PlaceService {
 
     @Override
     public PlaceEntity getCloserPoint(PlaceEntity entity) {
+        return getUserCloserPoint(entity);
+    }
+
+    @Override
+    public PlaceEntity getCloserPoint(double latitude, double longitude) {
+        return getUserCloserPoint(new PlaceEntity(latitude, longitude));
+    }
+
+    private PlaceEntity getUserCloserPoint(PlaceEntity entity) {
         Collection<PlaceEntity> entities = repository.findAll();
         PlaceEntity response = null;
 
-        double lengthEquator = 40075.0;
+        double lengthEquator = Double.MAX_VALUE;
 
         for (PlaceEntity place : entities) {
             double calculatedDistance = calculateDistance(
@@ -57,6 +65,7 @@ public class PlaceServiceImpl implements PlaceService {
 
         return response;
     }
+
 
     private double calculateDistance(double x1, double x2, double y1, double y2) {
         return Math.sqrt((y2 - y1) * (y2 - y1) + (x2 - x1) * (x2 - x1));

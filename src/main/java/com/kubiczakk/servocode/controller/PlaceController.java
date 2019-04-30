@@ -1,17 +1,15 @@
 package com.kubiczakk.servocode.controller;
 
 import com.kubiczakk.servocode.model.PlaceEntity;
-import com.kubiczakk.servocode.restModel.PlacesPojo;
 import com.kubiczakk.servocode.service.PlaceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.PostConstruct;
+import java.util.Collection;
 
 @Controller
 @RequestMapping("/api/place/")
@@ -22,9 +20,9 @@ public class PlaceController {
 
     @PostConstruct
     public void test(){
-        PlaceEntity entity = new PlaceEntity();
-        PlaceEntity entity2 = new PlaceEntity();
-        PlaceEntity entity3 = new PlaceEntity();
+        PlaceEntity entity = new PlaceEntity(1,1);
+        PlaceEntity entity2 = new PlaceEntity(1,1);
+        PlaceEntity entity3 = new PlaceEntity(1,1);
 
         entity.setLatitude(1.0);
         entity.setLongitude(1.0);
@@ -43,7 +41,7 @@ public class PlaceController {
         service.save(entity3);
     }
 
-    @RequestMapping(method = RequestMethod.GET)
+    @GetMapping
     public ResponseEntity getAll(){
         return new ResponseEntity<>(
                 service.getAll(),
@@ -51,7 +49,7 @@ public class PlaceController {
         );
     }
 
-    @RequestMapping(method = RequestMethod.POST)
+    @PostMapping
     public ResponseEntity save(@RequestBody PlaceEntity entity){
         return new ResponseEntity<>(
                 service.save(entity),
@@ -59,18 +57,26 @@ public class PlaceController {
         );
     }
 
-    @RequestMapping(value = "places", method = RequestMethod.POST)
-    public ResponseEntity saveAll(@RequestBody PlacesPojo entities){
+    @PostMapping("places")
+    public ResponseEntity saveAll(@RequestBody Collection<PlaceEntity> entities){
         return new ResponseEntity<>(
-            service.save(entities),
-            HttpStatus.OK
+                service.save(entities),
+                HttpStatus.OK
         );
     }
 
-    @RequestMapping(value = "getCloserPoint", method = RequestMethod.POST)
+    @PostMapping("find")
     public ResponseEntity getCloserPoint(@RequestBody PlaceEntity entity){
         return new ResponseEntity<>(
                 service.getCloserPoint(entity),
+                HttpStatus.OK
+        );
+    }
+
+    @GetMapping("find")
+    public ResponseEntity getCloserPoint(@RequestParam double latitude, @RequestParam double longitude) {
+        return new ResponseEntity<>(
+                service.getCloserPoint(latitude, longitude),
                 HttpStatus.OK
         );
     }
